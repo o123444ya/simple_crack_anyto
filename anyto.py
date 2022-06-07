@@ -1,4 +1,6 @@
 import winreg,ctypes, sys,time
+#Made By Huanxiang
+#https://fb.com/o123444ya
 def DEL_TEL(reg):
     try:
         winreg.DeleteValue(reg, 'Teleport')
